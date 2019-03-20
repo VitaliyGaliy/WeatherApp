@@ -6,7 +6,6 @@ import Search from "./containers/Search";
 import CitiesList from "./containers/CitiesList";
 
 import { store, persistor } from "./reducers";
-console.log('store', store);
 
 class App extends Component {
   render() {

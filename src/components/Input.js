@@ -1,8 +1,7 @@
 import React from 'react';
 
 
-const Input = ({ input: { onChange, ...restInput }, meta: { error, touched, active, submitFailed }, type, meta }) => {
-    console.log('error', error);
+const Input = ({ input: { onChange, ...restInput }, meta: { error, submitFailed }, type }) => {
 
     return (
         <input
